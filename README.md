@@ -111,7 +111,7 @@ streamlit run app.py
 ---
 
 ## 🌐 Live Demo
-[View on Streamlit Cloud](https://kjasim98-baly-task2-app-clclone.streamlit.app/)
+[View on Streamlit Cloud](https://kjasim98-baly-task2-app-clcone.streamlit.app/)
 
 ---
 
