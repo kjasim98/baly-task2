@@ -99,7 +99,7 @@ streamlit run app.py
 ---
 
 ## 🌐 Live Demo
-[View on Streamlit Cloud](https://<your-cohort-app>.streamlit.app) ← *(replace with your live link)*
+[View on Streamlit Cloud](https://kjasim98-baly-task2-app-clcone.streamlit.app/)
 
 ---
 
