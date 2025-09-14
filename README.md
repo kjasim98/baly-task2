@@ -1,10 +1,22 @@
-# 📊 Cohort Retention Analysis - Baly Food Task (Part 2)
+# 📈 Cohort Retention Analysis - Baly Food Task (Part 2)
 
 This is the **second task** implemented for the Baly Food Business Intelligence internship assignment. It analyzes customer retention by cohort and presents the data in a clean and interactive **heatmap dashboard** using Streamlit.
 
 ---
 
-## 🎯 Objective
+## 🌟 Note About the Dataset
+
+While building this project, I noticed that the sample dataset used for cohort analysis was **not distributed in a realistic way**:
+
+- Although the data spans an entire year, **almost all acquisition activity occurs in the first 4 months**
+- Approximately **90% of client acquisitions happen in the very first month**
+- All clients continue to order every month without dropping off, which is **not reflective of real-world retention patterns**
+
+Because of this, the heatmap displays artificially high retention and the cohort dynamics should be interpreted with caution.
+
+---
+
+## 🌟 Objective
 
 Build an interactive cohort analysis dashboard where Baly BI team members can:
 
@@ -55,7 +67,7 @@ Sample structure of `Cohorts-Sheet1.csv`:
 ### 🔄 Filtering
 - Use sidebar to select a specific client type or "All"
 
-### 📅 Cohort Calculation
+### 🗓️ Cohort Calculation
 - `cohort`: first month each client placed an order
 - `period_number`: months after cohort start
 
@@ -99,10 +111,9 @@ streamlit run app.py
 ---
 
 ## 🌐 Live Demo
-[View on Streamlit Cloud](https://kjasim98-baly-task2-app-clcone.streamlit.app/)
+[View on Streamlit Cloud](https://kjasim98-baly-task2-app-clclone.streamlit.app/)
 
 ---
-
 
 ## 💬 Contact
 - Email: [kjasim98@gmail.com](mailto:kjasim98@gmail.com)
